@@ -33,9 +33,9 @@ function fancyAScroll (
     const scrollStepY = `${scrollStepDirection}${scrollStepUnit}`
 
     // #3 keep on relatively scrolling untill reached to the destination
-    let previousY = 0
+    let previousY = -1
     const scrollInterval = setInterval(() => {
-      let presentY = window.scrollY
+      let presentY = window?.scrollY
       let targetRangeReached =
         offsetPosition - accuracyBuffer < presentY &&
         presentY < offsetPosition + accuracyBuffer
