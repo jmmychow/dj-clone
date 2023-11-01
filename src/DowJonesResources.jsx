@@ -4,7 +4,6 @@ import "./App.css";
 
 function DowJonesResources() {
     const isDesktop = useMediaQuery({ minWidth: 992 });
-    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
   
     function Resource({title="", date="", text="", resource="", class_ext=""}) {
         return (

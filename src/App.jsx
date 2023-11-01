@@ -15,7 +15,6 @@ function App() {
   const [ showSearch, setShowSearch ] = useState(false);
 
   const isDesktop = useMediaQuery({ minWidth: 992 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
 
   function Magnifier() {
     return (

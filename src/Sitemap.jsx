@@ -3,7 +3,6 @@ import { useMediaQuery } from 'react-responsive';
 
 function Sitemap({showSitemap}) {
     const isDesktop = useMediaQuery({ minWidth: 992 });
-    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
     const sitecat = [];
 
     function SiteCategory({category,list}) {

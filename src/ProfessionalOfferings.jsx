@@ -4,7 +4,6 @@ import "./App.jsx";
 
 function ProfessionalOfferings() {
   const isDesktop = useMediaQuery({ minWidth: 992 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
 
   function Offerings({image,title,text,stroke}) {
     function Stroke() {
