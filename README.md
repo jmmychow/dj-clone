@@ -1,3 +1,3 @@
 # Dow Jones website clone
 
-This clone site is for practice and learning purposes. A lot of techniques are involved to construct this website.
+This clone site is for practice and learning purposes. A lot of techniques are involved to acheive the effects present in this website.
